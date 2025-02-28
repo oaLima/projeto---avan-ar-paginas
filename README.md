@@ -1,3 +1,4 @@
+
 <html>
     <head>
         <meta charset="UTF-4">
@@ -11,11 +12,28 @@
                 <a href="serviços.html">Serviços</a>
                 <a href="contato.html">Contato</a>
             </nav>
-            <h1>Pagina Home</h1>    
+            <h1>Pagina de Contato</h1>    
         </header>
         <main>
-            <p>Essa é a pagina Home</p>
-            <img src="pexels-tranmautritam-326501.jpg" alt="meio de trabalho" width="500">
+            <p>Essa é a pagina de Contato</p>
+            <img src="pexels-vafphotos-14990520.jpg" alt="meio de Contato" width="500">
+            <form>
+                <div>
+                    <label for="">Nome</label>
+                    <input type="text" nome="nome" id="nome">
+                </div>
+                <div>
+                    <label for="">tel</label>
+                    <input type="tel" nome="telefone" id="telefone">
+                </div>
+                <div>
+                    <label for="mensagem">mensagem</label>
+                    <textarea nome="" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                    <button>Enviar</button>
+                </div>
+            </form>
         </main>
     </body>
 </html>
