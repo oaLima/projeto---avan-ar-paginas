@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+
+    <style>
+        #formulario {
+            width: 400px;
+            margin: auto;
+            padding: 1rem;
+        }
+        #formulario input {
+            width: 100%;
+        }
+        #formulario label {
+            font-size: 18px;
+            font-weight: 600;
+        }
+        #formulario button {
+            font-size: 18px;
+            width: 100%;
+        }
+        .btns {
+            justify-content: space-between;
+            align-items: center;
+            display: flex;
+            gap: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <h1>Cadastro de clientes</h1>
+    </header>
+
+    <main>
+        <form id="formulario">
+        <div>
+            <label for="Nome do cliente">Nome</label>
+            <Input type="text" name="nome" id="nome"></Input>
+        </div>
+
+        <div>
+            <label for="Telefone">Telefone</label>
+            <Input type="tel" name="telefone" id="telefone"></Input>
+        </div>
+
+        <div>
+            <label for="Cpf do cliente">Cpf</label>
+            <Input type="number" name="cpf" id="cpf"></Input>
+        </div>
+
+        <div>
+            <label for="Email do cliente">Email</label>
+            <Input type="text" name="email" id="email"></Input>
+        </div>
+
+        <div>
+            <label for="senha">Senha</label>
+            <Input type="password" name="senha" id="senha"></Input>
+        </div>
+
+        <div>
+            <label for="CEP">CEP</label>
+            <Input type="number" name="cep" id="cep"></Input>
+        </div>
+        
+        <div class="btns">
+            <button type="reset">Cancelar</button> 
+            <button type="submit">Cadastrar</button>
+        </div>
+    </main>
+</form>
+
+    <div id="dados"></div>
+
+    <footer>
+
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
